@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitessentialy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+        integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-----------------------HEADER----------------------->
+    <header>
+        <div class="container-fluid header-v3-section-container-fluid header-v3 pinned-header-v3">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-9 col-lg-10 main-menu-left-col">
+                        <div class="logo-wrapper">
+                            <a href="/">
+                                <svg viewBox="0 0 409 23" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18.2 18.5l3 3.3h-3.4L16.1 20c-1.8.8-3.5 1.3-5.2 1.3-2.9 0-5.4-1-7.5-3s-3-4.5-3-7.3 1-5.1 3.1-7.1 4.6-3 7.5-3 5.3 1 7.4 2.9 3.1 4.3 3.1 7c0 3.2-1.1 5.7-3.3 7.7zm-4-.5L10 13.5h3.4l2.9 3.2c1.6-1.6 2.4-3.4 2.4-5.5s-.8-3.9-2.3-5.3c-1.5-1.4-3.4-2.2-5.6-2.2-2.1 0-3.9.7-5.4 2.2C3.9 7.2 3.2 9 3.2 11.2S4 15 5.5 16.5c1.5 1.4 3.4 2.2 5.6 2.2.9-.2 1.9-.4 3.1-.7zM34.1 1h2.8v12.4c0 1.8.4 3.3 1.3 4.3s2.1 1.5 3.8 1.5c1.6 0 2.9-.5 3.8-1.4s1.3-2.2 1.3-3.9V1h2.8v12.7c0 2.5-.7 4.5-2.1 5.9s-3.3 2.2-5.6 2.2c-2.4 0-4.3-.8-5.8-2.3-1.4-1.5-2.2-3.7-2.2-6.7L34.1 1zM66 1h2.7v20.9H66V1zM85.2.2L100.6 16V1h2.8v21.8L88 7v14.8h-2.8V.2zm30.4.8h12.8v2.9h-5v18h-2.8v-18h-5V1zm26.8 0H154v2.9h-8.8V9h8.8v2.8h-8.8V19h8.8v2.8h-11.6V1zm37.9 2.7l-2.2 1.7c-.6-.6-1.1-1-1.6-1.3s-1.1-.4-2-.4c-1 0-1.7.2-2.3.7-.6.4-.9 1-.9 1.7 0 .6.3 1.1.8 1.6s1.4 1 2.7 1.5 2.2 1 2.9 1.5 1.3 1 1.7 1.5.8 1.2 1 1.8.3 1.3.3 2c0 1.6-.6 3-1.8 4.2-1.2 1.1-2.6 1.7-4.3 1.7-1.6 0-3.1-.4-4.3-1.3-1.2-.9-2.2-2.2-2.9-4l2.7-.8c1 2.2 2.5 3.3 4.5 3.3 1 0 1.8-.3 2.4-.9.6-.6 1-1.3 1-2.2 0-.5-.2-1.1-.5-1.6s-.8-1-1.3-1.3-1.3-.7-2.4-1.2c-1.1-.4-1.9-.9-2.5-1.2s-1.1-.8-1.5-1.3-.7-1-1-1.5c-.2-.5-.3-1.1-.3-1.6 0-1.4.6-2.6 1.7-3.6s2.5-1.5 4.1-1.5c1.1 0 2.2.2 3.2.7 1.2.3 2.1.9 2.8 1.8zm25.7 0l-2.2 1.7c-.6-.6-1.1-1-1.6-1.3s-1.1-.4-2-.4c-1 0-1.7.2-2.3.7-.6.4-.9 1-.9 1.7 0 .6.3 1.1.8 1.6s1.4 1 2.7 1.5 2.2 1 2.9 1.5 1.3 1 1.7 1.5.8 1.2 1 1.8.3 1.3.3 2c0 1.6-.6 3-1.8 4.2-1.2 1.1-2.6 1.7-4.3 1.7-1.6 0-3.1-.4-4.3-1.3-1.2-.9-2.2-2.2-2.9-4l2.7-.8c1 2.2 2.5 3.3 4.5 3.3 1 0 1.8-.3 2.4-.9.6-.6 1-1.3 1-2.2 0-.5-.2-1.1-.5-1.6s-.8-1-1.3-1.3-1.3-.7-2.4-1.2c-1.1-.4-1.9-.9-2.5-1.2s-1.1-.8-1.5-1.3-.7-1-1-1.5c-.2-.5-.3-1.1-.3-1.6 0-1.4.6-2.6 1.7-3.6s2.5-1.5 4.1-1.5c1.1 0 2.2.2 3.2.7 1.1.3 2 .9 2.8 1.8zM220.1 1h11.6v2.9h-8.8V9h8.8v2.8h-8.8V19h8.8v2.8h-11.6V1zm25.1-.8L260.6 16V1h2.8v21.8L248 7.1v14.8h-2.8V.2zm30.6.8h12.8v2.8h-5v18h-2.8v-18h-5V1zm27.1 0h2.7v20.9h-2.7V1zm24.3 0l9.5 20.9h-2.9l-2.3-5.2h-8.6l-2.3 5.2h-2.9L327.2 1zm0 6.2l-3.2 7.2h6.5l-3.3-7.2zM349.8 1h2.8v18.1h6.8v2.8h-9.6V1zm21.3 0h2.8v18h6.8v2.8h-9.6V1zM392 1h3.2l5.1 8.4 5.1-8.4h3.2l-6.9 11.3v9.6h-2.9v-9.5L392 1z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="desktop-menu-wrapper">
+                            <ul class="ul-level-1">
+                                <li class="li-level-1">
+                                    <a href="#" class="a-level-1">About US</a>
+                                </li>
+                                <li class="li-level-1">
+                                    <a href="#" class="a-level-1">Membership</a>
+                                    <div class="desktop-menu-dropdown">
+                                        <div class="overlay-desktop-menu-dropdown"></div>
+                                        <div class="level-2-wrapper">
+                                            <ul class="ul-level-2">
+                                                <li class="li-level-2">
+                                                    <a href="#" class="a-level-2 sublink">For Individuals</a>
+                                                </li>
+                                                <li class="li-level-2">
+                                                    <a href="#" class="a-level-2 sublink">For Bussiness</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="li-level-1 li-level-1-315650 li-level-1-3">
+                                    <a href="#" class="a-level-1">Services</a>
+                                    <div class="desktop-menu-dropdown">
+                                        <div class="overlay-desktop-menu-dropdown"></div>
+                                        <div class="level-2-wrapper">
+                                            <ul class="ul-level-2">
+                                                <li class="li-level-2 li-level-2-count-1">
+                                                    <a href="#" class="a-level-2">For Individuals</a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="li-level-2 li-level-2-count-2">
+                                                    <a href="#" class="a-level-2">For Individuals</a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="li-level-2 li-level-2-count-3">
+                                                    <a href="#" class="a-level-2">For Individuals</a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="#" class="a-level-3">Travel</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="li-level-1">
+                                    <a href="#" class="a-level-1">Foundation</a>
+                                </li>
+
+                                <li class="li-level-1">
+                                    <a href="#" class="a-level-1"> Editorial</a>
+                                </li>
+
+                                <li class="li-level-1 li-level-1-315653 li-level-1-6">
+                                    <a href="#" class="a-level-1">Global Offices</a>
+                                    <div class="desktop-menu-dropdown">
+                                        <div class="overlay-desktop-menu-dropdown"></div>
+                                        <div class="level-2-wrapper">
+                                            <ul class="ul-level-2">
+                                                <li class="li-level-2 li-level-2-count-1">
+                                                    <a href="#" class="a-level-2">Americas</a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="li-level-2 li-level-2-count-2">
+                                                    <a href="#" class="a-level-2">Americas</a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="li-level-2 li-level-2-count-3">
+                                                    <a href="#" class="a-level-2">eourpe</a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="li-level-2 li-level-2-count-4">
+                                                    <a href="#" class="a-level-2"></a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="li-level-2 li-level-2-count-5">
+                                                    <a href="#" class="a-level-2">middles easte</a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                                <li class="li-level-2 li-level-2-count-6">
+                                                    <a href="#" class="a-level-2">asia pecfic</a>
+                                                    <ul class="ul-level-3">
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+                                                        <li class="li-level-3">
+                                                            <a href="a-level-3">
+                                                                <a href="#" class="a-level-3">
+                                                                    Argentina</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col col-xs-3 col-lg-2 main-menu-right-col">
+                        <div class="buttons-wrapper-desktop">
+                            <ul>
+                                <li>
+                                    <a href="#" class="cta-btn-white-filled">Join</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mobile-menu">
+                            <div class="mobil-menu-hamburger">
+                                <div>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="mobil-menu-wrapper">
+                                <div class="overlay-mobil-menu-wrapper"></div>
+                                <div class="bg-mobil-menu-wrapper">
+                                    <ul class="ul-level-1">
+                                        <li class="li-level-1">
+                                            <a href="#" class="a-level-1">About Us</a>
+                                        </li>
+                                        <li class="li-level-1">
+                                            <a href="#" class="a-level-1 memb">Membership<span
+                                                    class="drop_icon"></span></a>
+
+                                            <ul class="ul-level-2 mob_col">
+                                                <li class="li-level-2">
+                                                    <a href="#" class="a-level-2">for Individuals</a>
+                                                </li>
+                                                <li class="li-level-2">
+                                                    <a href="#" class="a-level-2">for Bussiness</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="li-level-1">
+                                            <a href="#" class="a-level-1 serv_col">Services</a>
+                                            <ul class="ul-level-2 mob_col1">
+                                                <li class="li-level-2">
+                                                    <a href="#" class="a-level-2">for Individuals</a>
+                                                </li>
+                                                <li class="li-level-2">
+                                                    <a href="#" class="a-level-2">QR AND XR</a>
+                                                </li>
+                                                <li class="li-level-2">
+                                                    <a href="#" class="a-level-2">for Bussiness</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="li-level-1">
+                                            <a href="#" class="a-level-1">Foundation</a>
+                                        </li>
+                                        <li class="li-level-1">
+                                            <a href="#" class="a-level-1">Editorial</a>
+                                        </li>
+                                        <li class="li-level-1">
+                                            <a href="#" class="a-level-1">Global Offices</a>
+                                        </li>
+                                    </ul>
+                                    <div class="buttons-wrapper-mobile">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="cta-btn-white-filled">Join</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-links-wrapper">
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.instagram.com/quintessentially/" target="_blank">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                        viewBox="0 0 15 15">
+                                                        <path id="icon"
+                                                            d="M7.5,5.892a3.846,3.846,0,1,0,3.845,3.846A3.839,3.839,0,0,0,7.5,5.892Zm0,6.346a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,7.5,12.238Zm4.9-6.5a.9.9,0,1,1-.9-.9A.895.895,0,0,1,12.4,5.735Zm2.547.91A4.44,4.44,0,0,0,13.731,3.5,4.467,4.467,0,0,0,10.588,2.29c-1.238-.07-4.949-.07-6.187,0A4.46,4.46,0,0,0,1.259,3.5,4.454,4.454,0,0,0,.047,6.642c-.07,1.238-.07,4.95,0,6.189a4.44,4.44,0,0,0,1.211,3.143A4.472,4.472,0,0,0,4.4,17.185c1.238.07,4.949.07,6.187,0a4.438,4.438,0,0,0,3.142-1.212,4.469,4.469,0,0,0,1.211-3.143c.07-1.238.07-4.947,0-6.185Zm-1.6,7.514a2.531,2.531,0,0,1-1.426,1.426,16.524,16.524,0,0,1-4.421.3,16.653,16.653,0,0,1-4.421-.3A2.531,2.531,0,0,1,1.65,14.159a16.535,16.535,0,0,1-.3-4.422,16.664,16.664,0,0,1,.3-4.422A2.531,2.531,0,0,1,3.076,3.89a16.524,16.524,0,0,1,4.421-.3,16.653,16.653,0,0,1,4.421.3,2.531,2.531,0,0,1,1.426,1.426,16.535,16.535,0,0,1,.3,4.422A16.525,16.525,0,0,1,13.342,14.159Z"
+                                                            transform="translate(0.005 -2.238)" fill="#666" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.facebook.com/QuintessentiallyLondon"
+                                                    target="_blank">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="8.034" height="15"
+                                                        viewBox="0 0 8.034 15">
+                                                        <path id="Icon_awesome-facebook-f"
+                                                            data-name="Icon awesome-facebook-f"
+                                                            d="M9.117,8.438l.417-2.715h-2.6V3.961a1.357,1.357,0,0,1,1.53-1.467H9.643V.183A14.441,14.441,0,0,0,7.541,0,3.314,3.314,0,0,0,3.994,3.654V5.723H1.609V8.438H3.994V15H6.929V8.438Z"
+                                                            transform="translate(-1.609)" fill="#666" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/company/quintessentially/"
+                                                    target="_blank">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                        viewBox="0 0 15 15">
+                                                        <path id="Icon_awesome-linkedin-in"
+                                                            data-name="Icon awesome-linkedin-in"
+                                                            d="M3.358,15H.248V4.986h3.11ZM1.8,3.62A1.81,1.81,0,1,1,3.6,1.8,1.816,1.816,0,0,1,1.8,3.62ZM15,15h-3.1V10.126c0-1.162-.023-2.652-1.617-2.652-1.617,0-1.865,1.262-1.865,2.568V15H5.306V4.986H8.288V6.352h.044a3.268,3.268,0,0,1,2.942-1.617C14.422,4.735,15,6.807,15,9.5V15Z"
+                                                            transform="translate(0 -0.001)" fill="#666" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-----------------------Hero Section----------------------->
+    <div class="content">
+        <div class="container-fluid new-home-hero-section-container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-xs-12 col-md-12">
+                        <video class="home-hero-video" playsinline="playsinline" autoplay="autoplay" muted="muted"
+                            loop="loop" title="Video">
+                            <source
+                                src="https://www.quintessentially.com/assets/pages/homepage/Q-Website-Homepage-Video_10MB-2-1.mp4"
+                                type="video/mp4">
+                        </video>
+
+                        <div class="new-home-hero-text-box-wrapper">
+                            <div class="new-home-hero-text-box">
+                                <h1>Uncover a world of possibility.</h1>
+
+                                <p>
+                                <p>Life is meant to be lived. For more than two decades, Quintessentially has pioneered
+                                    and perfected the concept of luxury lifestyle management, benchmarking bespoke
+                                    concierge service and granting our members access to the inaccessible. We are here
+                                    to connect you with the things you love the most.</p>
+                                </p>
+
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------------------SECTION1 ----------------------->
+    <div class="container-fluid grid-section-container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="swiper home-grid-slide ">
+                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);
+                transition-duration: 0ms;">
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Individual Membership</h3>
+                                    <p>For discerning individuals seeking bespoke concierge and lifestyle management
+                                        services, a Quintessentially membership offers highly personalised, one-to-one
+                                        attention with a single point of contact – saving time and maximising what life
+                                        has on offer.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/Business2.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>For Businesses</h3>
+                                    <p>Extending service beyond individuals, Quintessentially’s business offering – corporate memberships, in-house agency QX, QCTM corporate travel management – leverage our unique positioning to help brands and businesses better service their staff and audiences.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/Terra-Solis_Dubai.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Editorial</h3>
+                                    <p>Consistently connected to the most important global happenings, Quintessentially’s finger is on the pulse. Discover what’s new and now worldwide with our editorial section, Noted.<p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Individual Membership</h3>
+                                    <p>For discerning individuals seeking bespoke concierge and lifestyle management
+                                        services, a Quintessentially membership offers highly personalised, one-to-one
+                                        attention with a single point of contact – saving time and maximising what life
+                                        has on offer.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Individual Membership</h3>
+                                    <p>For discerning individuals seeking bespoke concierge and lifestyle management
+                                        services, a Quintessentially membership offers highly personalised, one-to-one
+                                        attention with a single point of contact – saving time and maximising what life
+                                        has on offer.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- buttons -->
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                                style="fill: black;" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                            class="bi bi-arrow-left" viewBox="0 0 16 16" style="">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                                style=" fill: black;" />
+                        </svg>
+                    </div>
+
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-----------------------Membership Services----------------------->
+    <div class="container-fluid grid-section-container-fluid">
+        <div class="container">
+            <div class="heds">
+                <h2>Membership Services </h2>
+                <a href="#" class="cta-btn-black-cutout"> Learn More</a>
+            </div>
+            <div class="row">
+                <div class="swiper home-grid-slide ">
+                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);
+                    transition-duration: 0ms;">
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/mem1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Travel</h3>
+                                    <p>Our award-winning in-house travel agency comprises a specialist team well-versed in crafting individualised itineraries to meet any and all travel dreams.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/mem2.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Restaurants & Nightlife</h3>
+                                    <p>Our in-house specialists develop and maintain relationships with the world’s best chefs and restaurants – from trending hole-in-the-walls to Michelin star venues.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/mem3.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Exclusive Access</h3>
+                                    <p>Maximising what life has to offer, members receive unprecedented access to coveted global happenings from sport to entertainment to art.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/mem4.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Real Estate</h3>
+                                    <p>Quintessentially Estates is a luxury real estate service designed to assist with property sales and purchases worldwide – as well as comprehensive home management, renting and leasing.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/mem5.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Lifestyle Services</h3>
+                                    <p>Comprehensive lifestyle management means relieving the stress of the day-to-day. Quintessentially’s Lifestyle Services enable assistance with everything from the practical to the banal, incorporating comprehensive management to alleviate the pressures of everyday life.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                        style='margin-right: 12px;'>
+                        <div class="grid-card">
+                            <div class="image-wrapper">
+                                <a href="#">
+                                    <img src="assets/images/mem6.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="text-wrapper">
+                                <h3>Weddings & Occasions</h3>
+                                <p>Quintessentially is expert at planning all types of events, big and small, from milestone celebrations to weddings to surprise destination-oriented happenings.</p>
+                                <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                    style='margin-right: 12px;'>
+                    <div class="grid-card">
+                        <div class="image-wrapper">
+                            <a href="#">
+                                <img src="assets/images/mem7.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="text-wrapper">
+                            <h3>Education
+                            </h3>
+                            <p>
+                            In an increasingly global world, Quintessentially’s bespoke Education services are ever more prescient: our experts can assist with each phase of education to maximise every student’s potential.
+                            </p>
+                            <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                style='margin-right: 12px;'>
+                <div class="grid-card">
+                    <div class="image-wrapper">
+                        <a href="#">
+                            <img src="assets/images/mem8.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="text-wrapper">
+                        <h3>Art</h3>
+                        <p>In addition to receiving complimentary access to the world’s most prestigious art fairs, such as Frieze, The Armory, and Art Basel, Quintessentially offers a comprehensive advisory service for collectors.</p>
+                        <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                    </div>
+                </div>
+            </div>
+
+                    </div>
+                    <!-- buttons -->
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                                style="fill: black;" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                            class="bi bi-arrow-left" viewBox="0 0 16 16" style="">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                                style=" fill: black;" />
+                        </svg>
+                    </div>
+
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-------------------Bussiness Services -->
+    <div class="container-fluid grid-section-container-fluid">
+        <div class="container">
+            <div class="heds">
+                <h2>Business Services</h2>
+                <a href="#" class="cta-btn-black-cutout"> Learn More</a>
+            </div>
+            <div class="row">
+                <div class="swiper home-grid-slide">
+                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);
+                    transition-duration: 0ms;">
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/buss1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Corporate Collective Membership</h3>
+                                    <p>Quintessentially's bespoke corporate memberships provide Senior Management Teams with personalised, comprehensive luxury lifestyle management. Our designated corporate lifestyle managers grant 24/7 access to every aspect of the Quintessentially group.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/buss2.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Live Experiences</h3>
+                                    <p>QX’s global team can support end-to-end curation and delivery of experiential content. Whether large-scale multi-territory activations or intimately curated launches, our 360 Event Design & Management services ensure impactful events for brands of all types and sizes. We build connections between brand and audience that lead to deep, lasting relationships, amazing content, and overall brand loyalty.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/buss3.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Consultancy Services</h3>
+                                    <p>Our unique access to a high-value audience, alongside a broader network that spans the luxury space, enables QX to offer clients rich and highly trusted strategy and insights for information and implementation, helping shape their customer experience and drive brand loyalty. Services such as audience research and insight, brand experience strategy, luxury lifestyle consultancy, and more harness the unique positioning of QX to enable businesses to better connect to their global elite audience.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/buss4.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Individual Membership</h3>
+                                    <p>For discerning individuals seeking bespoke concierge and lifestyle management
+                                        services, a Quintessentially membership offers highly personalised, one-to-one
+                                        attention with a single point of contact – saving time and maximising what life
+                                        has on offer.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-right: 12px;" class='col col-12 col-xs-12 col-sm-4 grid-col swiper-slide'
+                            style='margin-right: 12px;'>
+                            <div class="grid-card">
+                                <div class="image-wrapper">
+                                    <a href="#">
+                                        <img src="assets/images/1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-wrapper">
+                                    <h3>Individual Membership</h3>
+                                    <p>For discerning individuals seeking bespoke concierge and lifestyle management
+                                        services, a Quintessentially membership offers highly personalised, one-to-one
+                                        attention with a single point of contact – saving time and maximising what life
+                                        has on offer.</p>
+                                    <a href="#" class="cta-btn-black-cutout"> learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- buttons -->
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                                style="fill: black;" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                            class="bi bi-arrow-left" viewBox="0 0 16 16" style="">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                                style=" fill: black;" />
+                        </svg>
+                    </div>
+
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-----------------------Form----------------------->
+
+    <div class="form_sec">
+        <div class="container">
+            <h2>We are Just a click away!!</h2>
+            <div class="form_contact">
+                <form action="">
+                    <div class="fiels_form">
+                        <label for=""> Salution*</label>
+                        <select name="" id="">
+                            <option value="Mrs"></option>
+                            <option value="Mrs">MRS</option>
+                            <option value="Mrs">Mr</option>
+                            <option value="Mrs">MS</option>
+                            <option value="Mrs">Miss</option>
+
+                        </select>
+                    </div>
+                    <div class="name">
+                        <div class="fname">
+                            <label for="">FirstName**</label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="lname">
+                            <label for="">LasstName**</label><br>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="fiels_form">
+                        <label for=""> Country**</label>
+                        <select name="" id="">
+                            <option value="Mrs"></option>
+                            <option value="Mrs">Pakistan</option>
+                            <option value="" selected="">Country *</option>
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Algeria">Algeria</option>
+                            <option value="American Samoa">American Samoa</option>
+                            <option value="Andorra">Andorra</option>
+                            <option value="Angola">Angola</option>
+                            <option value="Anguilla">Anguilla</option>
+                            <option value="Antarctica">Antarctica</option>
+                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Armenia">Armenia</option>
+                            <option value="Aruba">Aruba</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Austria">Austria</option>
+                            <option value="Azerbaijan">Azerbaijan</option>
+                            <option value="Bahamas">Bahamas</option>
+                            <option value="Bahrain">Bahrain</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="Barbados">Barbados</option>
+                            <option value="Belarus">Belarus</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="Belize">Belize</option>
+                            <option value="Benin">Benin</option>
+                            <option value="Bermuda">Bermuda</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                            <option value="Botswana">Botswana</option>
+                            <option value="Bouvet Island">Bouvet Island</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                            <option value="British Virgin Islands">British Virgin Islands</option>
+                            <option value="Brunei">Brunei</option>
+                            <option value="Bulgaria">Bulgaria</option>
+                            <option value="Burkina Faso">Burkina Faso</option>
+                            <option value="Burundi">Burundi</option>
+                            <option value="Cambodia">Cambodia</option>
+                            <option value="Cameroon">Cameroon</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Cape Verde">Cape Verde</option>
+                            <option value="Cayman Islands">Cayman Islands</option>
+                            <option value="Central African Republic">Central African Republic</option>
+                            <option value="Chad">Chad</option>
+                            <option value="Chile">Chile</option>
+                            <option value="China">China</option>
+                            <option value="Christmas Island">Christmas Island</option>
+                            <option value="Cocos Islands">Cocos Islands</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Comoros">Comoros</option>
+                            <option value="Cook Islands">Cook Islands</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Croatia">Croatia</option>
+                            <option value="Cuba">Cuba</option>
+                            <option value="Curacao">Curacao</option>
+                            <option value="Cyprus">Cyprus</option>
+                            <option value="Czech Republic">Czech Republic</option>
+                            <option value="Democratic Republic of the Congo">Democratic Republic of the Congo</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="Djibouti">Djibouti</option>
+                            <option value="Dominica">Dominica</option>
+                            <option value="Dominican Republic">Dominican Republic</option>
+                            <option value="East Timor">East Timor</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="El Salvador">El Salvador</option>
+                            <option value="Equatorial Guinea">Equatorial Guinea</option>
+                            <option value="Eritrea">Eritrea</option>
+                            <option value="Estonia">Estonia</option>
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="Falkland Islands">Falkland Islands</option>
+                            <option value="Faroe Islands">Faroe Islands</option>
+                            <option value="Fiji">Fiji</option>
+                            <option value="Finland">Finland</option>
+                            <option value="France">France</option>
+                            <option value="French Guiana">French Guiana</option>
+                            <option value="French Polynesia">French Polynesia</option>
+                            <option value="French Southern Territories">French Southern Territories</option>
+                            <option value="Gabon">Gabon</option>
+                            <option value="Gambia">Gambia</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Gibraltar">Gibraltar</option>
+                            <option value="Greece">Greece</option>
+                            <option value="Greenland">Greenland</option>
+                            <option value="Grenada">Grenada</option>
+                            <option value="Guadeloupe">Guadeloupe</option>
+                            <option value="Guatemala">Guatemala</option>
+                            <option value="Guernsey">Guernsey</option>
+                            <option value="Guinea">Guinea</option>
+                            <option value="Guinea-Bissau">Guinea-Bissau</option>
+                            <option value="Guyana">Guyana</option>
+                            <option value="Haiti">Haiti</option>
+                            <option value="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+                            <option value="Honduras">Honduras</option>
+                            <option value="Hong Kong">Hong Kong</option>
+                            <option value="Hungary">Hungary</option>
+                            <option value="Iceland">Iceland</option>
+                            <option value="India">India</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="Iraq">Iraq</option>
+                            <option value="Ireland">Ireland</option>
+                            <option value="Isle of Man">Isle of Man</option>
+                            <option value="Israel">Israel</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Ivory Coast">Ivory Coast</option>
+                            <option value="Jamaica">Jamaica</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Jersey">Jersey</option>
+                            <option value="Jordan">Jordan</option>
+                            <option value="Kazakhstan">Kazakhstan</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Kiribati">Kiribati</option>
+                            <option value="Kuwait">Kuwait</option>
+                            <option value="Kyrgyzstan">Kyrgyzstan</option>
+                            <option value="Laos">Laos</option>
+                            <option value="Latvia">Latvia</option>
+                            <option value="Lebanon">Lebanon</option>
+                            <option value="Lesotho">Lesotho</option>
+                            <option value="Liberia">Liberia</option>
+                            <option value="Libya">Libya</option>
+                            <option value="Liechtenstein">Liechtenstein</option>
+                            <option value="Lithuania">Lithuania</option>
+                            <option value="Luxembourg">Luxembourg</option>
+                            <option value="Macao">Macao</option>
+                            <option value="Macedonia">Macedonia</option>
+                            <option value="Madagascar">Madagascar</option>
+                            <option value="Malawi">Malawi</option>
+                            <option value="Malaysia">Malaysia</option>
+                            <option value="Maldives">Maldives</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Malta">Malta</option>
+                            <option value="Marshall Islands">Marshall Islands</option>
+                            <option value="Martinique">Martinique</option>
+                            <option value="Mauritania">Mauritania</option>
+                            <option value="Mauritius">Mauritius</option>
+                            <option value="Mayotte">Mayotte</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Micronesia">Micronesia</option>
+                            <option value="Moldova">Moldova</option>
+                            <option value="Monaco">Monaco</option>
+                            <option value="Mongolia">Mongolia</option>
+                            <option value="Montenegro">Montenegro</option>
+                            <option value="Montserrat">Montserrat</option>
+                            <option value="Morocco">Morocco</option>
+                            <option value="Mozambique">Mozambique</option>
+                            <option value="Myanmar">Myanmar</option>
+                            <option value="Namibia">Namibia</option>
+                            <option value="Nauru">Nauru</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="Netherlands">Netherlands</option>
+                            <option value="New Caledonia">New Caledonia</option>
+                            <option value="New Zealand">New Zealand</option>
+                            <option value="Nicaragua">Nicaragua</option>
+                            <option value="Niger">Niger</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Niue">Niue</option>
+                            <option value="Norfolk Island">Norfolk Island</option>
+                            <option value="North Korea">North Korea</option>
+                            <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                            <option value="Norway">Norway</option>
+                            <option value="Oman">Oman</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Palau">Palau</option>
+                            <option value="Panama">Panama</option>
+                            <option value="Papua New Guinea">Papua New Guinea</option>
+                            <option value="Paraguay">Paraguay</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="Pitcairn">Pitcairn</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="Puerto Rico">Puerto Rico</option>
+                            <option value="Qatar">Qatar</option>
+                            <option value="Reunion">Reunion</option>
+                            <option value="Romania">Romania</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Rwanda">Rwanda</option>
+                            <option value="Saint Barthelemy">Saint Barthelemy</option>
+                            <option value="Saint Helena">Saint Helena</option>
+                            <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                            <option value="Saint Lucia">Saint Lucia</option>
+                            <option value="Saint Martin">Saint Martin</option>
+                            <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                            <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                            <option value="Samoa">Samoa</option>
+                            <option value="San Marino">San Marino</option>
+                            <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                            <option value="Saudi Arabia">Saudi Arabia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Seychelles">Seychelles</option>
+                            <option value="Sierra Leone">Sierra Leone</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Slovakia">Slovakia</option>
+                            <option value="Slovenia">Slovenia</option>
+                            <option value="Solomon Islands">Solomon Islands</option>
+                            <option value="Somalia">Somalia</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                            <option value="South Korea">South Korea</option>
+                            <option value="South Sudan">South Sudan</option>
+                            <option value="Spain">Spain</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="Suriname">Suriname</option>
+                            <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                            <option value="Swaziland">Swaziland</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Switzerland">Switzerland</option>
+                            <option value="Syria">Syria</option>
+                            <option value="Taiwan">Taiwan</option>
+                            <option value="Tajikistan">Tajikistan</option>
+                            <option value="Tanzania">Tanzania</option>
+                            <option value="Thailand">Thailand</option>
+                            <option value="Togo">Togo</option>
+                            <option value="Tokelau">Tokelau</option>
+                            <option value="Tonga">Tonga</option>
+                            <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                            <option value="Tunisia">Tunisia</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Turkmenistan">Turkmenistan</option>
+                            <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                            <option value="Tuvalu">Tuvalu</option>
+                            <option value="U.S. Virgin Islands">U.S. Virgin Islands</option>
+                            <option value="Uganda">Uganda</option>
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="United Arab Emirates">United Arab Emirates</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States">United States</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Uzbekistan">Uzbekistan</option>
+                            <option value="Vanuatu">Vanuatu</option>
+                            <option value="Vatican">Vatican</option>
+                            <option value="Venezuela">Venezuela</option>
+                            <option value="Vietnam">Vietnam</option>
+                            <option value="Wallis and Futuna">Wallis and Futuna</option>
+                            <option value="Western Sahara">Western Sahara</option>
+                            <option value="Yemen">Yemen</option>
+                            <option value="Zambia">Zambia</option>
+                            <option value="Zimbabwe">Zimbabwe</option>
+
+                        </select>
+                    </div>
+                    <!-- email -->
+                    <div class="mes">
+                        <div class="message">
+                            <label for="">Phone**</label> <br>
+                            <input type="email">
+                        </div>
+                    </div>
+                    <!-- phone -->
+                    <div class="mes">
+                        <div class="message">
+                            <label for="">Email**</label> <br>
+                            <input type="phone">
+                        </div>
+                    </div>
+                    <!-- how did you hear about us -->
+                    <div class="mes">
+                        <div class="message">
+                            <label for="">How Did you Hear About Us***</label> <br>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <!-- message -->
+                    <div class="mes">
+                        <div class="message">
+                            <label for="">message</label> <br>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <!-- terms -->
+                    <div class="terms">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I would like to subscribe to the Quintessentially Newsletter</label>
+                    </div>
+                    <div class="terms">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I confirm that I have read and agree with the <a href="'">Terms & Conditions</a>
+                            and <a href="#">Privacy Policy </a> *</label>
+                    </div>
+                    <!-- indicates -->
+                    <div class="indicates">
+                        <p>* Indicates required field</p>
+                    </div>
+                    <!-- submit -->
+                    <div class="sub">
+                        <button type="submit" class="submit cta-btn-white-filled">submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------FOLLOW ------------ -->
+    <div class="follow">
+        <h2>Follow us on Instagram</h2>
+        <a href="#">
+            <p>@quintessentially</p>
+        </a>
+        <div class="sl2">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                    <div class="fol_card swiper-slide">
+                        <div class="fol_img">
+                            <img src="assets/images/2.jpeg" alt="">
+                        </div>
+                        <div class="fol_text">
+                            <div class="likes">
+                                <div class="lk1"></div>
+                                <div class="lk1"></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, necessitatibus?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- buttons -->
+                <div class="swiper-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                            style="fill: black;" />
+                    </svg>
+                </div>
+                <div class="swiper-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-arrow-left"
+                        viewBox="0 0 16 16" style="">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                            style=" fill: black;" />
+                    </svg>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----------------------FOOTER----------------------->
+
+    <div class="container-fluid qx-footer-section-container-fluid">
+        <div class="container footer-heading-container">
+            <div class="row">
+                <div class="col col-12 col-xs-12 col-md-12 footer-heading-col">
+                    <svg width="408" height="23" viewBox="0 0 408 23" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M18.2 18.5l3 3.3h-3.4L16.1 20c-1.8.8-3.5 1.3-5.2 1.3-2.9 0-5.4-1-7.5-3s-3-4.5-3-7.3 1-5.1 3.1-7.1 4.6-3 7.5-3 5.3 1 7.4 2.9 3.1 4.3 3.1 7c0 3.2-1.1 5.7-3.3 7.7zm-4-.5L10 13.5h3.4l2.9 3.2c1.6-1.6 2.4-3.4 2.4-5.5s-.8-3.9-2.3-5.3c-1.5-1.4-3.4-2.2-5.6-2.2-2.1 0-3.9.7-5.4 2.2C3.9 7.2 3.2 9 3.2 11.2S4 15 5.5 16.5c1.5 1.4 3.4 2.2 5.6 2.2.9-.2 1.9-.4 3.1-.7zM34.1 1h2.8v12.4c0 1.8.4 3.3 1.3 4.3s2.1 1.5 3.8 1.5c1.6 0 2.9-.5 3.8-1.4s1.3-2.2 1.3-3.9V1h2.8v12.7c0 2.5-.7 4.5-2.1 5.9s-3.3 2.2-5.6 2.2c-2.4 0-4.3-.8-5.8-2.3-1.4-1.5-2.2-3.7-2.2-6.7L34.1 1zM66 1h2.7v20.9H66V1zM85.2.2L100.6 16V1h2.8v21.8L88 7v14.8h-2.8V.2zm30.4.8h12.8v2.9h-5v18h-2.8v-18h-5V1zm26.8 0H154v2.9h-8.8V9h8.8v2.8h-8.8V19h8.8v2.8h-11.6V1zm37.9 2.7l-2.2 1.7c-.6-.6-1.1-1-1.6-1.3s-1.1-.4-2-.4c-1 0-1.7.2-2.3.7-.6.4-.9 1-.9 1.7 0 .6.3 1.1.8 1.6s1.4 1 2.7 1.5 2.2 1 2.9 1.5 1.3 1 1.7 1.5.8 1.2 1 1.8.3 1.3.3 2c0 1.6-.6 3-1.8 4.2-1.2 1.1-2.6 1.7-4.3 1.7-1.6 0-3.1-.4-4.3-1.3-1.2-.9-2.2-2.2-2.9-4l2.7-.8c1 2.2 2.5 3.3 4.5 3.3 1 0 1.8-.3 2.4-.9.6-.6 1-1.3 1-2.2 0-.5-.2-1.1-.5-1.6s-.8-1-1.3-1.3-1.3-.7-2.4-1.2c-1.1-.4-1.9-.9-2.5-1.2s-1.1-.8-1.5-1.3-.7-1-1-1.5c-.2-.5-.3-1.1-.3-1.6 0-1.4.6-2.6 1.7-3.6s2.5-1.5 4.1-1.5c1.1 0 2.2.2 3.2.7 1.2.3 2.1.9 2.8 1.8zm25.7 0l-2.2 1.7c-.6-.6-1.1-1-1.6-1.3s-1.1-.4-2-.4c-1 0-1.7.2-2.3.7-.6.4-.9 1-.9 1.7 0 .6.3 1.1.8 1.6s1.4 1 2.7 1.5 2.2 1 2.9 1.5 1.3 1 1.7 1.5.8 1.2 1 1.8.3 1.3.3 2c0 1.6-.6 3-1.8 4.2-1.2 1.1-2.6 1.7-4.3 1.7-1.6 0-3.1-.4-4.3-1.3-1.2-.9-2.2-2.2-2.9-4l2.7-.8c1 2.2 2.5 3.3 4.5 3.3 1 0 1.8-.3 2.4-.9.6-.6 1-1.3 1-2.2 0-.5-.2-1.1-.5-1.6s-.8-1-1.3-1.3-1.3-.7-2.4-1.2c-1.1-.4-1.9-.9-2.5-1.2s-1.1-.8-1.5-1.3-.7-1-1-1.5c-.2-.5-.3-1.1-.3-1.6 0-1.4.6-2.6 1.7-3.6s2.5-1.5 4.1-1.5c1.1 0 2.2.2 3.2.7 1.1.3 2 .9 2.8 1.8zM220.1 1h11.6v2.9h-8.8V9h8.8v2.8h-8.8V19h8.8v2.8h-11.6V1zm25.1-.8L260.6 16V1h2.8v21.8L248 7.1v14.8h-2.8V.2zm30.6.8h12.8v2.8h-5v18h-2.8v-18h-5V1zm27.1 0h2.7v20.9h-2.7V1zm24.3 0l9.5 20.9h-2.9l-2.3-5.2h-8.6l-2.3 5.2h-2.9L327.2 1zm0 6.2l-3.2 7.2h6.5l-3.3-7.2zM349.8 1h2.8v18.1h6.8v2.8h-9.6V1zm21.3 0h2.8v18h6.8v2.8h-9.6V1zM392 1h3.2l5.1 8.4 5.1-8.4h3.2l-6.9 11.3v9.6h-2.9v-9.5L392 1z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-nav-container">
+            <div class="row">
+
+
+                <div class="col col-xs-12 col-md-2 footer-nav-col">
+                    <div>
+                        <p>Services</p>
+                        <ul>
+                            <li>
+                                <a href="/services">Individual Membership</a>
+                            </li>
+                            <li>
+                                <a href="/for-businesses/qx">For Businesses</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-xs-12 col-md-2 footer-nav-col">
+                    <div>
+                        <p>Support</p>
+                        <ul>
+                            <li>
+                                <a href="/careers">Careers</a>
+                            </li>
+                            <li>
+                                <a href="/supplier-code-of-conduct">Supplier Code of Conduct</a>
+                            </li>
+                            <li>
+                                <a href="/terms-and-conditions">Terms &amp; Conditions</a>
+                            </li>
+                            <li>
+                                <a href="/privacy-policy">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="/contact">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="/newsletter">Newsletter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-xs-12 col-md-2 footer-nav-col footer-nav-col-social">
+                    <div>
+                        <p>Follow Us</p>
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/quintessentially/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                                        <path id="icon"
+                                            d="M7.5,5.892a3.846,3.846,0,1,0,3.845,3.846A3.839,3.839,0,0,0,7.5,5.892Zm0,6.346a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,7.5,12.238Zm4.9-6.5a.9.9,0,1,1-.9-.9A.895.895,0,0,1,12.4,5.735Zm2.547.91A4.44,4.44,0,0,0,13.731,3.5,4.467,4.467,0,0,0,10.588,2.29c-1.238-.07-4.949-.07-6.187,0A4.46,4.46,0,0,0,1.259,3.5,4.454,4.454,0,0,0,.047,6.642c-.07,1.238-.07,4.95,0,6.189a4.44,4.44,0,0,0,1.211,3.143A4.472,4.472,0,0,0,4.4,17.185c1.238.07,4.949.07,6.187,0a4.438,4.438,0,0,0,3.142-1.212,4.469,4.469,0,0,0,1.211-3.143c.07-1.238.07-4.947,0-6.185Zm-1.6,7.514a2.531,2.531,0,0,1-1.426,1.426,16.524,16.524,0,0,1-4.421.3,16.653,16.653,0,0,1-4.421-.3A2.531,2.531,0,0,1,1.65,14.159a16.535,16.535,0,0,1-.3-4.422,16.664,16.664,0,0,1,.3-4.422A2.531,2.531,0,0,1,3.076,3.89a16.524,16.524,0,0,1,4.421-.3,16.653,16.653,0,0,1,4.421.3,2.531,2.531,0,0,1,1.426,1.426,16.535,16.535,0,0,1,.3,4.422A16.525,16.525,0,0,1,13.342,14.159Z"
+                                            transform="translate(0.005 -2.238)" fill="#666" />
+                                    </svg>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/QuintessentiallyLondon" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8.034" height="15"
+                                        viewBox="0 0 8.034 15">
+                                        <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f"
+                                            d="M9.117,8.438l.417-2.715h-2.6V3.961a1.357,1.357,0,0,1,1.53-1.467H9.643V.183A14.441,14.441,0,0,0,7.541,0,3.314,3.314,0,0,0,3.994,3.654V5.723H1.609V8.438H3.994V15H6.929V8.438Z"
+                                            transform="translate(-1.609)" fill="#666" />
+                                    </svg>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/quintessentially/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                                        <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in"
+                                            d="M3.358,15H.248V4.986h3.11ZM1.8,3.62A1.81,1.81,0,1,1,3.6,1.8,1.816,1.816,0,0,1,1.8,3.62ZM15,15h-3.1V10.126c0-1.162-.023-2.652-1.617-2.652-1.617,0-1.865,1.262-1.865,2.568V15H5.306V4.986H8.288V6.352h.044a3.268,3.268,0,0,1,2.942-1.617C14.422,4.735,15,6.807,15,9.5V15Z"
+                                            transform="translate(0 -0.001)" fill="#666" />
+                                    </svg>
+                                    <span>Linkedin</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-copyright-container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <p>Quintessentially.com © 2022 All rights reserved.</p>
+                    <button class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="#" class="q-contact-button cta-btn-white-filled cta-only-desktop ">
+        Contact Us
+    </a>
+
+    <!-----------------------JS--------------------------->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/jquery/jquery-3.6.0.js"></script>
+
+    <script>
+        $(".mobil-menu-hamburger").click(function () {
+            $(".mobile-menu").toggleClass("open");
+            $('.mobil-menu-hamburger').toggleClass('open');
+        });
+
+        // mobilve nav dropdowns
+        $(".memb").click(function () {
+            $(".mob_col").toggleClass("active");
+        });
+        $(".serv_col").click(function () {
+            $(".mob_col1").toggleClass("active");
+        });
+        // bottom to top
+        var btn = $('.btn');
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '30000');
+        });
+
+
+        // slider
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            slidesPerView: 'auto',
+            direction: 'horizontal',
+            spaceBetween: 12,
+            a11y: false,
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
